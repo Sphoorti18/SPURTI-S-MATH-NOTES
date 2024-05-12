@@ -4,6 +4,10 @@ GRAPH |---> Directed (Digraph)
       |---> Undirected (Un-digraph)
 Degree of node = Perspective of node |----> Outgoing edges (source) 
                                      |----> Incoming edges (sink)
+REPRESENTATION |---> INCIDENT MATRIX ==> rows are nodes and columns are edges
+                                         m = n1, n2, ... + INFINITY
+                                         n = e1, e2, ... + INFINITY
+               |---> ADJACENCY MATRIX/LIST ==> rows and columns are nodes
 //-----------------------------------------------------------------------
 ISOMORPHISM = Graphs(Edges, Nodes); 
 {G(E,N) : 0 <= E == N ~= (+ INFINITY)} BUT DIFFER in positioning of 
