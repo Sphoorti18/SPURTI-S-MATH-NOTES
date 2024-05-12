@@ -1,8 +1,11 @@
 GRAPH THEORY (CONFUSION is the only shortcut that you can find)
 /***********************************************************************/
+GRAPH |---> Directed (Digraph)
+      |---> Undirected (Un-digraph)
+//-----------------------------------------------------------------------
 ISOMORPHISM = Graphs(Edges, Nodes); 
 {G(E,N) : 0 <= E == N ~= (+ INFINITY)} BUT DIFFER in positioning of 
 Edges/STRUCTURE
-
+//-----------------------------------------------------------------------
 /***********************************************************************/
 THE END ;) ;)
