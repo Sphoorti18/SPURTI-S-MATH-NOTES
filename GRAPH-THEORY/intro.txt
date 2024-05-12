@@ -35,6 +35,7 @@ HAMILTONIAN CYCLE |----> DIRAC's ==> G = {G'(V,E) | 0 <= V,E <= + INFINITY}
                                         n/2}
                                         {G'(V,E) | n >= 3 and 2(deg(u) + deg(v) 
                                         >= n)}
+
 It's a proper path when it visits the nodes once along the way. 
 You can start by choosing any Vertex V and end at same Vertex V.
 
@@ -42,9 +43,10 @@ THERE ARE 2 graphs G and H
 AND TRY TO COMPARE THEM WITH EACH OTHER and CONQUER THEM.
 
 //----------------------------------------------------------------------
-SHORTEST-PATH |----> SINGLE-SOURCE
-              |----> SINGLE-PAIRS
-              |----> ALL-PAIRS
+SHORTEST-PATH |----> SINGLE-SOURCE ==> V_src to V_dest
+              |----> SINGLE-PAIRS ==> V_src to V_sink
+              |----> ALL-PAIRS ==> ∀ V_src to V_sink (DP)
+OPTIMAL SUBSTRUCTURE
 
 /***********************************************************************/
 THE END ;) ;)
