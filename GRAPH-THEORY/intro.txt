@@ -42,6 +42,9 @@ THERE ARE 2 graphs G and H
 AND TRY TO COMPARE THEM WITH EACH OTHER and CONQUER THEM.
 
 //----------------------------------------------------------------------
+SHORTEST-PATH |----> SINGLE-SOURCE
+              |----> SINGLE-PAIRS
+              |----> ALL-PAIRS
 
 /***********************************************************************/
 THE END ;) ;)
