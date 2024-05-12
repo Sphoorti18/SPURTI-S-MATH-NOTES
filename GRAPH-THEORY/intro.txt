@@ -9,6 +9,14 @@ ISOMORPHISM = Graphs(Edges, Nodes);
 {G(E,N) : 0 <= E == N ~= (+ INFINITY)} BUT DIFFER in positioning of 
 Edges/STRUCTURE
 //-----------------------------------------------------------------------
+Euler's Theorem
+Connected graph G is Eulerian iff it has no odd degree ∀ nodes in G.
+No self loops are allowed ==> A node != B node and they have odd degree
+(sink or source)
+
+Euler's Circuit
+
+//-----------------------------------------------------------------------
 
 /***********************************************************************/
 THE END ;) ;)
