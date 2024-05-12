@@ -47,6 +47,7 @@ SHORTEST-PATH |----> SINGLE-SOURCE ==> V_src to V_dest
               |----> SINGLE-PAIRS ==> V_src to V_sink
               |----> ALL-PAIRS ==> ∀ V_src to V_sink (DP)
 OPTIMAL SUBSTRUCTURE
+SUB-PATHs within G are shorcuts just like copy and paste to make it faster!
 
 /***********************************************************************/
 THE END ;) ;)
