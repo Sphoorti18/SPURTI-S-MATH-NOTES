@@ -10,6 +10,7 @@ REPRESENTATION |---> INCIDENT MATRIX ==> rows are nodes and columns are edges
                                          m = n1, n2, ... + INFINITY
                                          n = e1, e2, ... + INFINITY
                |---> ADJACENCY MATRIX/LIST ==> rows and columns are nodes
+               |---> PLANAR (TOP VIEW)
 //-----------------------------------------------------------------------
 
 ISOMORPHISM = Graphs(Edges, Nodes); 
