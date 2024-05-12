@@ -32,6 +32,9 @@ We split the G into several pieces and conquer them along the way.
 HAMILTONIAN CYCLE
 It's a proper path when it visits the nodes once along the way. You can start by choosing any Vertex V and end at same Vertex V.
 
+THERE ARE 2 graphs G and H
+AND TRY TO COMPARE THEM WITH EACH OTHER and CONQUER THEM.
+
 //----------------------------------------------------------------------
 
 /***********************************************************************/
