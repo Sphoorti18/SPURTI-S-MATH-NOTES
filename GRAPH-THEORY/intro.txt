@@ -43,7 +43,7 @@ THERE ARE 2 graphs G and H
 AND TRY TO COMPARE THEM WITH EACH OTHER and CONQUER THEM.
 
 //----------------------------------------------------------------------
-SHORTEST-PATH |----> SINGLE-SOURCE ==> V_src to V_dest
+SHORTEST-PATH |----> SINGLE-SOURCE (Dijkstra's Algo) ==> V_src to V_dest
               |----> SINGLE-PAIRS ==> V_src to V_sink
               |----> ALL-PAIRS ==> ∀ V_src to V_sink (DP)
 OPTIMAL SUBSTRUCTURE
