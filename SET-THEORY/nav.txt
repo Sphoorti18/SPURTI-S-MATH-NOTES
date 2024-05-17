@@ -1,1 +1,20 @@
+/**********************************************************************************************/
+**RELATIONS
+          |--> Reflexive ==> {a ∈ A | (a,a) ∈ R}
+TYPES ==> |--> Symmetric ==>
+          |--> Transitive ==>
+          |--> EQUIVALENCE ==> REFLEXIVE + SYMMETRIC + TRANSITIVE
+          |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
 
+**FUNCTIONs ==> SPECIAL CASE OF RELATION
+
+|-------|       |----------|       |--------|
+| INPUT | --->> | FUNCTION | --->> | OUTPUT |
+|-------|       |----------|       |--------|
+
+          | --> INJECTIVE / ONE-to-ONE FUNCTION ==> MAPPING ONE I/P to ONE O/P 
+TYPES ==> | --> SURJECTIVE / ONTO FUNCTION ==> MAPPING ONE I/P TO MANNY O/P's
+          | --> BIJECTIVE == INJECTIVE + SURJECTIVE
+
+**HASSE diagram 
+/**********************************************************************************************/
