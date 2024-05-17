@@ -1,15 +1,18 @@
 /**********************************************************************************************/
 **RELATIONS
-          |--> Reflexive ==> {a ∈ A | (a,a) ∈ R}
-TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
+          |--> Reflexive ==> {a ∈ A | (a,a) ∈ R} (SELF-LOOPS)
+TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R } 
           |--> Transitive ==> {a ∈ A , b ∈ B and c ∈ C | (a,b) ∈ R and (b,c) ∈ R and (a,c) ∈ R}
+                          ==> {a ∈ A , b ∈ B and c ∈ C | { (a,b), (b,c), (a,c) } ∈ R }
           |--> Anti-Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∉ R }
-          |--> Asymmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R and a == b}
+          |--> Asymmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R and a == b} 
           |--> EQUIVALENCE ==> REFLEXIVE + SYMMETRIC + TRANSITIVE
-------------------------------------------------------------------------
+          |--------------------------------------------------------------------------------------------
           |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
                              ==> Poset(A,R) | A is a given set and R is a relation defined on set A
-                             ==> **HASSE diagram
+                             ==> **HASSE diagram is used to show whether a given poset is totally ordered or linearly chained!
+HOW TO CONSTRUCT HASSE DIAGRAM?
+1) REMOVE SELF-LOOPS
 
 **FUNCTIONs ==> SPECIAL CASE OF RELATION
 
