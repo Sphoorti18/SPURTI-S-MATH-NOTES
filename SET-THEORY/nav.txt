@@ -1,3 +1,24 @@
+GLOSSARY : 
+∪ == Union (or operator)
+∩ == Intersection (and operator)
+Venn Diagram == Pictorial Representation of sets
+Universal set == All possible values
+/***********************************************************************************************/
+**SET THEORY 
+POSET == Subset within subset! 
+LET US DEFINE A = {1,2}
+
+                   |--> { }
+          |--> { } | 
+∅/{ } --> |        |--> {2}
+          |
+          |        |--> { }
+          |--> {1} |
+                   |--> {1,2}
+**BOOLEAN LAWS
+1) ASSOCIATIVE ==> (a ∪ b) ∪ c == a ∪ (b ∪ c) 
+2) COMMUTATIVE ==> (a ∩ b) ∩ c == a ∩ (b ∩ c) 
+2) DISTRIBUTIVE ==> (a ∩ b) ∪ c == (a ∪ c) ∩ (b ∪ c)
 /**********************************************************************************************/
 **RELATIONS
           |--> Reflexive ==> {a ∈ A | (a,a) ∈ R} (SELF-LOOPS)
@@ -10,9 +31,10 @@ TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
           |--------------------------------------------------------------------------------------------
           |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
                              ==> Poset(A,R) | A is a given set and R is a relation defined on set A
-                             ==> **HASSE diagram is used to show whether a given poset is totally ordered or linearly chained!
+                             ==> HASSE diagram is used to show whether a given poset is totally ordered or linearly chained!
 HOW TO CONSTRUCT HASSE DIAGRAM?
-1) REMOVE SELF-LOOPS
+1) REMOVE SELF-LOOPS and transitive relation ==> (a,c) ∈ R
+2) Direction of the arrow is upwards so you can remove the arrow head symbol
 
 **FUNCTIONs ==> SPECIAL CASE OF RELATION
 
@@ -26,3 +48,4 @@ TYPES ==> | --> SURJECTIVE / ONTO FUNCTION ==> MAPPING ONE I/P TO MANNY O/P's
 
 
 /**********************************************************************************************/
+THE END ;) ;)
