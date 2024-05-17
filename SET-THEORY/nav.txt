@@ -6,7 +6,7 @@ TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
           |--> Anti-Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∉ R }
           |--> Asymmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R and a == b}
           |--> EQUIVALENCE ==> REFLEXIVE + SYMMETRIC + TRANSITIVE
----------------------------------------------------------------------------------
+------------------------------------------------------------------------
           |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
                              ==> Poset(A,R) | A is a given set and R is a relation defined on set A
                              ==> **HASSE diagram
