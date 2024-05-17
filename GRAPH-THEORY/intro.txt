@@ -2,11 +2,13 @@ GRAPH THEORY (CONFUSION is the only shortcut that you can find)
 
 /***********************************************************************/
 Terminology :
-Multiple edges : u and v do have 2 or more edges
+Multiple edges : u and v do have 2 or more edges.
 Self loops : u and u have an edge.
 Simple graph = NO multiple edges and no self loops.
+Multi-Graph : NO self loops but have multiple edges.
+General graph : Have both self loops and multiple edges.
 /***********************************************************************/
-GRAPH |---> Directed (Digraph)
+GRAPH |---> Directed (Digraph) --> degree of node = how many times it ends up being a endpoint!
       |---> Undirected (Un-digraph)
 
 **Digraph
