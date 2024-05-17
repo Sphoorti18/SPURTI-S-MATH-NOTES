@@ -33,7 +33,7 @@ TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
                              ==> Poset(A,R) | A is a given set and R is a relation defined on set A
                              ==> HASSE diagram is used to show whether a given poset is totally ordered or linearly chained!
 **HOW TO CONSTRUCT HASSE DIAGRAM?
-1) REMOVE SELF-LOOPS and transitive relation ==> (a,c) ∈ R
+1) REMOVE SELF-LOOPS and transitive relation ==> (a,c) ∈ R to reduce REDUNDANCY!
 2) Direction of the arrow is upwards so you can remove the arrow head symbol
 
 **TERMINOLOGY REGARDING HASSE DIAGRAM
