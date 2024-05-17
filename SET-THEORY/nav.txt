@@ -42,8 +42,10 @@ Extreme endpoints | ---> Maximal/Upper ==> a, b ... n nodes are related by lower
                   | ---> Minimal/Lower ==> a, b ... n nodes are related by upper levels (NO predecessor)
                   | ---> Greatest element == > a1, a2 ... a_{n} ∈ A | a_{n} > a_{n-1} ... > a1
                   | ---> Least element  == > a1, a2 ... a_{n} ∈ A | a1 < a2 ... a_{n}
-                  | ---> Greatest lower bound 
-                  | ---> Least upper bound
+                  | ---> Greatest lower bound ==> GLB = {a1, a2 ... a_{n} ∈ A | a1 < a2 ... a_{n} }
+                                              ==> a_{n} is GLB
+                  | ---> Least upper bound ==> LUB = {a1, a2 ... a_{n} ∈ A | a_{n} > a_{n-1} ... > a1}
+                                              ==> a1 is LUB
 
 
 /**********************************************************************************************/
