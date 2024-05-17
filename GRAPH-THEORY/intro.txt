@@ -52,7 +52,40 @@ You can start by choosing any Vertex V and end at same Vertex V.
 THERE ARE 2 graphs G and H
 AND TRY TO COMPARE THEM WITH EACH OTHER and CONQUER THEM.
 
-//----------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
+**Trees = Connected Un-digraph
+NO SELF LOOPS or MULTIPLE EDGES
+
+TERMINOLOGY
+Disjoint set of Trees == FOREST
+M-nary ==> FOR EVERY parent node, it has m childern or kids.
+
+//---------------------------------------------------------------------------------------------
+
+LEMMA 1 ==> A connected graph G = {G(V,E) : E == V-1 }
+
+Proof 1 ==> {v1 -- e1 --> v2 }, v2 -- e2 --> v3, ... V_n -- e_n --> V_(n+1)
+Hence, proved! :) :)
+
+//------------------------------------------------------------------------------------------
+
+LEMMA 2 ==> G == {G(V,E) | E == V-1} has no circuits is a tree.
+ Proof 2 ==> v1 -- e1 --> v2, v2 -- e2 --> v3, ... V_n -- e_n --> V_(n+1) | v1 != v2
+Hence, proved! :) :)
+//------------------------------------------------------------------------------------------
+
+**Minimum cost spanning trees
+A tree that has no cycles
+
+PRIM's algorithm
+G ← Empty set 
+Choose minimum vertex first and then go on until you reach the end w/o cycles.
+
+KRUSKAL's algorithm (faster than Prim's Algo)
+G ← Empty set 
+Break ties randomly when you encounter edges that have same weights. 
+Choose minimum vertex first and then go on until you reach the end w/o cycles.
+
 SHORTEST-PATH |----> SINGLE-SOURCE (Dijkstra's Algo) ==> V_src to V_dest
               |----> SINGLE-PAIRS ==> V_src to V_sink
               |----> ALL-PAIRS ==> ∀ V_src to V_sink (DP)
