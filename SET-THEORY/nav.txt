@@ -1,8 +1,10 @@
 /**********************************************************************************************/
 **RELATIONS
           |--> Reflexive ==> {a ∈ A | (a,a) ∈ R}
-TYPES ==> |--> Symmetric ==>
-          |--> Transitive ==>
+TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
+          |--> Transitive ==> {a ∈ A , b ∈ B and c ∈ C | (a,b) ∈ R and (b,c) ∈ R and (a,c) ∈ R}
+          |--> Anti-Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∉ R }
+          |--> Asymmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R and a == b}
           |--> EQUIVALENCE ==> REFLEXIVE + SYMMETRIC + TRANSITIVE
           |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
 
