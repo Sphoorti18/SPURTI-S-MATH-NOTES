@@ -32,10 +32,21 @@ TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
           |--> PARTIAL ORDER ==> REFLEXIVE + ANTI-SYMMETRIC + TRANSITIVE
                              ==> Poset(A,R) | A is a given set and R is a relation defined on set A
                              ==> HASSE diagram is used to show whether a given poset is totally ordered or linearly chained!
-HOW TO CONSTRUCT HASSE DIAGRAM?
+**HOW TO CONSTRUCT HASSE DIAGRAM?
 1) REMOVE SELF-LOOPS and transitive relation ==> (a,c) ∈ R
 2) Direction of the arrow is upwards so you can remove the arrow head symbol
 
+**TERMINOLOGY REGARDING HASSE DIAGRAM
+
+Extreme endpoints | ---> Maximal/Upper ==> a, b ... n nodes are related by lower levels (NO successor)
+                  | ---> Minimal/Lower ==> a, b ... n nodes are related by upper levels (NO predecessor)
+                  | ---> Greatest element == > a1, a2 ... a_{n} ∈ A | a_{n} > a_{n-1} ... > a1
+                  | ---> Least element  == > a1, a2 ... a_{n} ∈ A | a1 < a2 ... a_{n}
+                  | ---> Greatest lower bound 
+                  | ---> Least upper bound
+
+
+/**********************************************************************************************/
 **FUNCTIONs ==> SPECIAL CASE OF RELATION
 
 |-------|       |----------|       |--------|
