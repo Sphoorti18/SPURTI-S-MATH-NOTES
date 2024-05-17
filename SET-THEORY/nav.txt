@@ -46,6 +46,6 @@ HOW TO CONSTRUCT HASSE DIAGRAM?
 TYPES ==> | --> SURJECTIVE / ONTO FUNCTION ==> MAPPING ONE I/P TO MANNY O/P's
           | --> BIJECTIVE == INJECTIVE + SURJECTIVE
 
-
+IF YOU CAN SHOW THAT GIVEN FUNCTION IS A BIJECTIVE THEN YOU CAN FIND ITS INVERSE! 
 /**********************************************************************************************/
 THE END ;) ;)
