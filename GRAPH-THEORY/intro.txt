@@ -1,8 +1,15 @@
 GRAPH THEORY (CONFUSION is the only shortcut that you can find)
+
+/***********************************************************************/
+Terminology :
+Multiple edges : u and v do have 2 or more edges
+Self loops : u and u have an edge.
+Simple graph = No multiple edges and no self loops.
 /***********************************************************************/
 GRAPH |---> Directed (Digraph)
       |---> Undirected (Un-digraph)
 
+**Digraph
 Degree of node = Perspective of node |----> Outgoing edges (source) 
                                      |----> Incoming edges (sink)
 
