@@ -26,6 +26,8 @@ TYPES ==> |--> Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R }
           |--> Transitive ==> {a ∈ A , b ∈ B and c ∈ C | (a,b) ∈ R and (b,c) ∈ R and (a,c) ∈ R}
                           ==> {a ∈ A , b ∈ B and c ∈ C | { (a,b), (b,c), (a,c) } ∈ R }
           |--> Anti-Symmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∉ R }
+                                 ~p = (b,a) ∉ R and q = a ∈ A , b ∈ B
+                                 ~p and q ==> p --> q is true
           |--> Asymmetric ==> {a ∈ A , b ∈ B | (a,b) ∈ R and (b,a) ∈ R and a == b} 
           |--> EQUIVALENCE ==> REFLEXIVE + SYMMETRIC + TRANSITIVE
           |--------------------------------------------------------------------------------------------
