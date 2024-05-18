@@ -35,8 +35,16 @@ Proof 3 : {c*[a - b]} /m ==> c*d/m ==> e/m
 
 Lemma 3.1 : a^n == b^n % m
 Proof 3.1 : Using mathematical Induction
-
-Hence, proved :):)
+            1) Base case ==> P(1) is true
+               a^1 == b^1 % m -->> a == b % m
+            2) Assumption case ==> P(k) is true
+               a^k == b^k % m 
+            3) Induction case ==> P(k+1) is true
+               a^(k+1) == b^(k+1) % m 
+               a^(k+1) ~= a^k ~= a , same logic goes for b
+               a^k == b^k % m 
+               a^1 == b^1 % m -->> a == b % m
+         Hence, proved :):)
 
 /*********************************************************************************************************************/
 THE END ;) ;)
