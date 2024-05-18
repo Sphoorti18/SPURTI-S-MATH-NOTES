@@ -1,1 +1,18 @@
+/***************************************************************************************************************/
+**DISJUNCTIVE NORMAL FORM (DNF) / Sum of Products (SOP)
+E.g : (a ∩ b) ∪ (c ∩ d)
 
+**CONJUCTIVE NORMAL FORM (CNF) / Product of Sums (POS)
+E.g : (a ∪ b) ∩ (c ∪ d)
+
+HOW TO OBTAIN Principal CNF or Principal DNF?
+1) OBTAIN CNF / DNF
+2) ADD MISSING VARIABLES 
+
+//--------------------------------------------------------------------------------------------------------------
+**RULES OF INFERENCE
+REVERSAL of POS/PCNF or SOP/PDNF
+//--------------------------------------------------------------------------------------------------------------
+**TESTING THE VALIDITY OF THE PROPOSITIONAL STATEMENTS
+/***************************************************************************************************************/
+THE END ;) ;)
