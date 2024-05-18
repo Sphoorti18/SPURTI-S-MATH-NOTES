@@ -27,11 +27,14 @@ Proof 1.1 : [(a + c)-(b + d)]/m ==> [(a + c)- b - d]/m ==> [(a - b)+(c - d)]/m =
 Lemma 2 : (a - c) == (b - c) % m
 Proof 2 : [(a - c)-(b - c)]/m ==> [(a - c)-(b - c)]/m ==>  (s - t) /m
 
-Lemma 1.1 : (a - c) == (b - d) % m
-
+Lemma 2.1 : (a - c) == (b - d) % m
+Proof 2.1 : [(a - c)-(b - d)]/m ==> [(a - c)- b + d]/m ==> [(a - b)+(d - c)]/m ==> (s + t)/m
 
 Lemma 3 : ac == bc % m
 Proof 3 : {c*[a - b]} /m ==> c*d/m ==> e/m
+
+Lemma 3.1 : a^n == b^n % m
+Proof 3.1 : Using mathematical Induction
 
 Hence, proved :):)
 
