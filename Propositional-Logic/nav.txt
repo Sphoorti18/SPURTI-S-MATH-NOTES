@@ -20,6 +20,8 @@ Predicate == A function has a input which takes true or false and depending on t
 PREDICATE |-->> Universal Qauntifer ==> { ∀ x | P(x) -> Q(x) }
           |-->> Existential Quantifier ==> { ∃ some x | P(x) ∧ Q(x) }
           |-->> Universal ==> { ∀ x | P(x) is true : Q(x) is true }
-          |-->> Exitential ==> { ∃ some x | P(x) is true : Q(x) is true or false}
+          |-->> Existential ==> { ∃ some x | P(x) is true : Q(x) is true or false}
+          |-->> Logical connectives ==> ~ {∀ x | P(x)} =~ { ∃ some x | {∀ x | P(x)} }
+                                    ==> ~ { ∃ some x | {∀ x | P(x)} } =~ ∀x { ∃ some x | {∀ x | P(x)} }
 /***************************************************************************************************************/
 THE END ;) ;)
