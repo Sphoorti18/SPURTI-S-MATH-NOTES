@@ -24,7 +24,7 @@ Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and
          (s ∩ t) ∈ [P(A) ∩ P(B)]
          Hence proved on LHS!
          [P(A) ∩ P(B)] ==> Therefore LHS ⊆ RHS! THIS IS FLAKY :(
-Lemma 3 : 
+Lemma 3 : A 
 /***********************************************************************************************/
 **SET THEORY 
 POSET == Subset within subset! 
