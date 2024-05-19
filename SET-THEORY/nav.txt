@@ -39,9 +39,9 @@ Lemma 2.1 :  [A^c ∩ B^c] ⊆ (A ∪ B)^c
 Proof 2.1 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∪ B = { x, y | x ∈ A or y ∈ B}
            r = { p, q | p ∉ A and q ∉ B}
            r ∉ p ∩ q ==> r ∈ [p ∩ q]^c
-           Proved on RHS! Now LHS
-           r = { p | p ∉ [A and B]}
-           p ∉ A and q ∉ B
+           Proved on LHS! Now RHS
+           r = { p | p ∉ [A or B]}
+           p ∉ A or q ∉ B
            Proved! Phew, finally :)
 /***********************************************************************************************/
 **SET THEORY 
