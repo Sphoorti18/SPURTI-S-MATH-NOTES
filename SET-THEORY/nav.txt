@@ -26,7 +26,7 @@ Proof 1.1 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A a
          [P(A) ∩ P(B)] ==> Therefore LHS ⊆ RHS! THIS IS FLAKY :(
 
 * Demorgan's Laws
-Lemma 2.0 : (A ∩ B)^c ⊆ A^c ∪ B^c
+Lemma 2.0 : (A ∩ B)^c ⊆ [A^c ∪ B^c]
 Proof 2.0 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∩ B = { x, y | x ∈ A and y ∈ B}
            r = { p, q | p ∉ A and q ∉ B}
            r ∉ p ∩ q ==> r ∈ [p ∩ q]^c
