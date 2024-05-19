@@ -23,5 +23,11 @@ PREDICATE |-->> Universal Qauntifer ==> { ∀ x | P(x) -> Q(x) }
           |-->> Existential ==> { ∃ some x | P(x) is true : Q(x) is true or false}
           |-->> Logical connectives ==> ~ {∀ x | P(x)} =~ { ∃ some x | {∀ x | P(x)} }
                                     ==> ~ { ∃ some x | {∀ x | P(x)} } =~ ∀x { ∃ some x | {∀ x | P(x)} }
+//--------------------------------------------------------------------------------------------------------------
+*Generalised PigeonHole Principle
+If 𝑛 items are put into 𝑚 containers, then at least one container must contain at least 
+⌈𝑛/m⌉ items, where ⌈𝑥⌉ is the ceiling function (rounding up to the nearest integer).
+
 /***************************************************************************************************************/
+
 THE END ;) ;)
