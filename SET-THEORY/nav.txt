@@ -13,11 +13,11 @@ GLOSSARY :
 9) Strict Subset == ⊂ -->> part of SuperSet and doesn't equal # of set elements 
 
 *KEY EXAMPLES OF SUBSET METHOD
-Lemma 1 : A ⊆ B and B ⊆ C then A ⊆ C
-Proof 1 : A = {x | x ∈ A} ; B = {y | y ∈ B} and C = {z | z ∈ C}
+Lemma 1.0 : A ⊆ B and B ⊆ C then A ⊆ C
+Proof 1.0 : A = {x | x ∈ A} ; B = {y | y ∈ B} and C = {z | z ∈ C}
          TRANSITIVE RELATIONSHIP? Maybe!
-Lemma 2 : P(A ∩ B) ⊆ P(A) ∩ P(B)
-Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and y ∈ B}
+Lemma 1.1 : P(A ∩ B) ⊆ P(A) ∩ P(B)
+Proof 1.1 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and y ∈ B}
          P(A) = {∅, {x}, {y}, {x,y}}
          P(B) = {∅, {y}, {x}, {y,x}}
          s ∈ P(A) and t ∈ P(B)
@@ -25,8 +25,18 @@ Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and
          Hence proved on LHS!
          [P(A) ∩ P(B)] ==> Therefore LHS ⊆ RHS! THIS IS FLAKY :(
 
-Lemma 3 : (A ∩ B)^c = A^c ∪ B^c
-Proof 3 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∩ B = { x, y | x ∈ A and y ∈ B}
+* Demorgan's Laws
+Lemma 2.0 : (A ∩ B)^c = A^c ∪ B^c
+Proof 2.0 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∩ B = { x, y | x ∈ A and y ∈ B}
+           r = { p, q | p ∉ A and q ∉ B}
+           r ∉ p ∩ q ==> r ∈ [p ∩ q]^c
+           Proved on RHS! Now LHS
+           r = { p | p ∉ [A and B]}
+           p ∉ A and q ∉ B
+           Proved! Phew, finally :)
+
+Lemma 2.1 : (A ∪ B)^c = A^c ∩ B^c
+Proof 2.1 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∩ B = { x, y | x ∈ A and y ∈ B}
            r = { p, q | p ∉ A and q ∉ B}
            r ∉ p ∩ q ==> r ∈ [p ∩ q]^c
            Proved on RHS! Now LHS
