@@ -14,5 +14,12 @@ HOW TO OBTAIN Principal CNF or Principal DNF?
 REVERSAL of POS/PCNF or SOP/PDNF
 //--------------------------------------------------------------------------------------------------------------
 **TESTING THE VALIDITY OF THE PROPOSITIONAL STATEMENTS
+MISSING VARIABLES LIKE [~p V p] or [~p ∧ p] ==> (Complement Laws)
+//--------------------------------------------------------------------------------------------------------------
+Predicate == A function has a input which takes true or false and depending on the input, it will output true or false!
+PREDICATE |-->> Universal Qauntifer ==> { ∀ x | P(x) -> Q(x) }
+          |-->> Existential Quantifier ==> { ∃ some x | P(x) ∧ Q(x) }
+          |-->> Universal ==> { ∀ x | P(x) is true : Q(x) is true }
+          |-->> Exitential ==> { ∃ some x | P(x) is true : Q(x) is true or false}
 /***************************************************************************************************************/
 THE END ;) ;)
