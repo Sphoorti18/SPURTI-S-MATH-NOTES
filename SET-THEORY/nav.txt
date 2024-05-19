@@ -24,7 +24,15 @@ Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and
          (s ∩ t) ∈ [P(A) ∩ P(B)]
          Hence proved on LHS!
          [P(A) ∩ P(B)] ==> Therefore LHS ⊆ RHS! THIS IS FLAKY :(
-Lemma 3 : A 
+
+Lemma 3 : (A ∩ B)^c = A^c ∪ B^c
+Proof 3 :  A = {x | x ∈ A} ; B = {y | y ∈ B} ;  A ∩ B = { x, y | x ∈ A and y ∈ B}
+           r = { p, q | p ∉ A and q ∉ B}
+           r ∉ p ∩ q ==> r ∈ [p ∩ q]^c
+           Proved on RHS! Now LHS
+           r = { p | p ∉ [A and B]}
+           p ∉ A and q ∉ B
+           Proved! Phew, finally :)
 /***********************************************************************************************/
 **SET THEORY 
 POSET == Subset within subset! 
