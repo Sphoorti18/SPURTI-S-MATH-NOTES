@@ -1,8 +1,14 @@
 GLOSSARY : 
-∪ == Union (or operator)
-∩ == Intersection (and operator)
-Venn Diagram == Pictorial Representation of sets
-Universal set == All possible values
+1) ∪ == Union (or operator)
+2) ∩ == Intersection (and operator)
+3) Venn Diagram == Pictorial Representation of sets
+4) Universal set == All possible values
+5) SuperSet ==> A = {x | x ∈ A}
+6) Subset ==> Part of SuperSet ==> B = {y | y ∈ B}
+7) A - B == A ∩ (A ∩ B)' or {x ∈ A | y ∉ B}
+  A = {p | p ∈ A} and B = {q | q ∈ (A ∩ B)'}
+  A = {p | p ∈ A} and B = {q | q ∉ (A ∩ B)}
+  Hence proved :):)!
 /***********************************************************************************************/
 **SET THEORY 
 POSET == Subset within subset! 
