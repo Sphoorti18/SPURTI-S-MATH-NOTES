@@ -9,10 +9,19 @@ GLOSSARY :
   A = {p | p ∈ A} and B = {q | q ∈ (A ∩ B)'}
   A = {p | p ∈ A} and B = {q | q ∉ (A ∩ B)}
   Hence proved :):)!
+8) Proper Subset ==> ⊆ -->> part of SuperSet and has equal # of set elements 
+9) Strict Subset == ⊂ -->> part of SuperSet and doesn't equal # of set elements 
+
+*KEY EXAMPLES OF SUBSET METHOD
+Lemma 1 : A ⊆ B and B ⊆ C then A ⊆ C
+Proof 1 : A = {x | x ∈ A} ; B = {y | y ∈ B} and C = {z | z ∈ C}
+         TRANSITIVE RELATIONSHIP? Maybe!
+Lemma 2 : P(A ∩ B) ⊆ P(A) ∩ P(C)
+Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and y ∈ B}
 /***********************************************************************************************/
 **SET THEORY 
 POSET == Subset within subset! 
-LET US DEFINE A = {1,2}
+LET US DEFINE A = {1,2} and PowerSet(A) is shown below as a Tree diagram
 
                    |--> { }
           |--> { } | 
