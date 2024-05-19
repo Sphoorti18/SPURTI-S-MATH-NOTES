@@ -16,8 +16,14 @@ GLOSSARY :
 Lemma 1 : A ⊆ B and B ⊆ C then A ⊆ C
 Proof 1 : A = {x | x ∈ A} ; B = {y | y ∈ B} and C = {z | z ∈ C}
          TRANSITIVE RELATIONSHIP? Maybe!
-Lemma 2 : P(A ∩ B) ⊆ P(A) ∩ P(C)
+Lemma 2 : P(A ∩ B) ⊆ P(A) ∩ P(B)
 Proof 2 : A = {x | x ∈ A} ; B = {y | y ∈ B} ; A ∩ B = { x, y | x ∈ A and y ∈ B}
+         P(A) = {∅, {x}, {y}, {x,y}}
+         P(B) = {∅, {y}, {x}, {y,x}}
+         s ∈ P(A) and t ∈ P(B)
+         (s ∩ t) ∈ [P(A) ∩ P(B)]
+         Hence proved on LHS!
+         P(A) == P(B), Therefore LHS ⊆ RHS! THIS IS FLAKY :(
 /***********************************************************************************************/
 **SET THEORY 
 POSET == Subset within subset! 
